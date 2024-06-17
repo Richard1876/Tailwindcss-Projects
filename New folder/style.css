@@ -1,0 +1,304 @@
+Body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Alice;
+}
+
+header{
+    background-color: rgb(91, 218, 235);
+    
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+nav{
+    display: flex;
+}
+
+nav img{
+    width: 70px;
+}
+
+nav ul{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    height: 50px;
+}
+nav ul li a{
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 238, 255, 0.596);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    /* width: 250px; */
+    z-index: 55;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(10px);
+    margin-top: 90px;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.sidebar li{
+    width: 100%;
+    margin-bottom: 90px;
+    padding: 30px;
+    height: 12px;
+ 
+}
+.sidebar li a{
+    width: 100%;  
+    
+}
+
+nav .sidebar li a{
+    font-size: 40px; 
+    text-align: center;  
+    
+}
+
+
+
+.hamburger{
+    margin-left: 25px;
+    padding: 5px;
+    display: none;
+    background-color: transparent;
+   
+    border: none;
+}
+
+
+.head{
+    width: 100%;
+    text-align: center;
+}
+
+.head h1{
+    font-size: 100px
+}
+
+.main-section{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -50px;
+    height: 150vh;
+    margin-bottom: 200px;
+    
+}
+
+
+
+.headshot{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: rgb(91, 218, 235) no-repeat center;
+    background-size: cover;
+    padding: 25px;
+    
+}
+
+
+.introduction{
+    max-width: 650px;
+    height: 100vh;
+    border-left: solid 5px black;
+    padding: 30px;
+    padding-top: 0;
+   
+}
+
+.img{
+    margin-top: -300px;
+    margin-bottom: 10px;
+}
+
+
+.headshot{
+    margin: 0;
+}
+
+.name{
+    text-align: center;
+}
+
+
+.introduction p{
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgb(91, 218, 235);
+    width: 100%;
+    margin-top: 50px;    
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.right{
+    text-align: center;
+}
+
+/* .left-side{
+    width: 50%;
+} */
+/* .right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} */
+
+.right-side a{
+    text-align: end;
+    text-decoration: none;
+}
+
+.right-side a img {
+    width: 30px;
+    padding: 5px 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 780px) {
+    .hidden{
+        display: none;
+    }
+
+    .sidebar li{
+        
+        /* background-color: aqua; 
+              */
+    }
+
+    .sidebar-list{
+        text-align: center;
+        
+        
+    }
+    .hamburger-list-2 {
+        display: none;
+       
+    }
+
+    .hamburger{
+        display: flex;
+        width: 90%;
+        justify-content: flex-end;
+    } 
+
+    .main-section{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        /* margin-top: -50px; */
+        height: 100vh;
+        
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 80px;
+        
+    }
+
+    .headshot{
+        width: 90px;
+        height: 90px;
+        margin: 0;
+       
+    }
+
+
+    .introduction{
+        border: none;
+        margin-top: 100px;
+       
+    }
+
+    .introduction p{
+        margin: 0 10px;
+        
+    }
+
+    .introduction .bio{
+        height: 220vh;;
+    }
+
+    .introduction h2{
+        margin-top: -100px;
+        margin-bottom: -1px;
+    }
+
+    .name{
+        text-align: center;
+        margin-top: -35px;
+    }
+}
+
+
+
+@media only screen and (min-width: 781px) {
+    .sidebar{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 375px) {
+    header{
+        width: 103%;
+    }
+}
+
+
+

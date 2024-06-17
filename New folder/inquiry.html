@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inquiry.css">
+    <link rel="icon" href="./img/AM LOGO.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allow ME</title>
+</head>
+<body id="request">
+    <header>
+    <nav class="">
+        <div>
+          <a href="/"><img src="./img/AM LOGO.png" alt=""></a>            
+        </div>
+        <div class="sidebar-list hidden" >
+        <ul class="sidebar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="inquiry.html">Inquiries</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+        </div>
+        <ul class="hamburger-list-2">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="inquiry.html">Inquiries</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger"><a href="#"><img src="./img/menu_24dp_FILL0_wght400_GRAD0_opsz24.png" alt=""></a></button>
+    </nav>
+    </header>
+
+        <div class="container">
+
+        
+          <div class="auth-modal">
+            <h1>request service</h1>
+            <p class="terms">
+              By signing up you agree to our terms and conditions. <br> learn more about our privacy Policy before submit.
+            </p>
+            <form target="-blank" action="https://formsubmit.co/concierge.allowme@gmail.com" method="post">
+            <label for="first-name"></label>
+            <input type="text" id="first-name" name="first-name" placeholder="Your First Name" autocomplete="on" required autofocus>
+            
+            <label for="last-name"></label>
+            <input type="text" id="last-name" name="last-name" placeholder="Your Last Name"  autocomplete="on" required>
+            
+            <label for="business-name"></label>
+            <input type="text" id="business-name" name="business-name" placeholder="Your Business Name"  autocomplete="on" required>
+            
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" placeholder="555-555-5555"   autocomplete="on" required>
+            
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address"  autocomplete="on" required>
+            <label for="budget">Budget</label>
+            <input type="text" id="budget" name="budget" placeholder="$" value="$">
+
+
+
+            <fieldset>
+              <legend><strong><h1>What services are you looking for</h1></strong></legend>
+              <p>
+                <input type="radio" name="service" id="Social Media management" value="Social Media management">
+                <label for="Social Media management">Social Media Management</label>
+              </p>
+              <p>
+                <input type="radio" name="service" id="Administrative" value="Administrative">
+                <label for="Administrative">Administrative Service</label>
+              </p>
+              <p>
+                <input type="radio" name="service" id="Specialty" value="Specialty">
+                <label for="Specialty">Specialty Service</label>                
+              </p> 
+              <p class="info"><strong>Additional info </strong></p>
+              <label for="message"></label>
+              <textarea name="message" id="message" cols="50" rows="5" ></textarea>           
+            </fieldset>
+            <label for="tandc" class="tandc">
+              <input type="checkbox" name="tandc" id="tandc" required>
+              <b>I agree to the terms and conditions.</b>
+            </label>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://richard1876.github.io/allowme.github.io/thankyou.html">
+              <button class="form-button" type="submit">submit</button>
+            </form>
+          </div>
+
+
+
+        </div>
+   
+
+
+
+    <footer>
+        <div class="left-side">
+        
+            <div class="left">
+            Copyright © 2024 Allow Me. All rights reserved
+            </div>
+            <div class="right">
+            <a href="mailto:concierge.allowme@gmail.com">concierge.allowme@gmail.com</a>
+            </div> 
+        </div>
+
+
+        <div class="right-side">
+            <a class=" socials" href="https://www.facebook.com/AllowMeVirtually">
+              <img src="./img/facebook.png" alt="facebook image">
+            </a>
+            <a class=" socials" href="https://instagram.com/allowmevirtually">
+              <img src="./img/instagram.png" alt="instagram image">
+            </a>
+            <a class=" socials" href="http://www.linkedin.com/in/tiphany-white-a29998bb">
+              <img src="./img/linkedin.png" alt="linkedin image">
+            </a>
+          </div>      
+        
+       </footer>    
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Alice;
+    height: 100vh;
+    /* margin-bottom: 550px; */
+}
+
+main{
+    display: flex;
+    width: 100%;
+    /* height: auto; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 50px;
+    height: 350vh;
+}
+
+.service {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 320vh;
+    
+    
+}
+
+.Offered-service-container{
+    width: 90%;
+    
+    
+}
+
+
+
+
+.work-card{
+    width: 100%;
+    background-color: lightcyan;
+    margin: 10px;
+    /* padding: 0 50px 20px 20px; */
+    border-radius: 15px;
+    border-top: rgb(91, 218, 235) solid 25px;
+    border-left: solid rgb(91, 218, 235);
+    border-right: solid rgb(91, 218, 235);
+    border-bottom: solid rgb(91, 218, 235);
+    /* height: auto; */
+    
+}
+
+.work-card h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.work-card p{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.work-card ul li {
+    font-size: 25px;
+    list-style-position: inside;
+    font-family: Alice;
+    line-height: 30px;
+}
+.card-container-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.list-container p{
+text-decoration: underline;
+}
+
+
+.work-card-2{
+    
+    width: 70%;
+    background-color: lightcyan;
+    margin: 10px;
+    /* padding: 0 50px 20px 20px; */
+    border-radius: 15px;
+    border-top: rgb(91, 218, 235) solid 25px;
+    border-left: solid rgb(91, 218, 235);
+    border-right: solid rgb(91, 218, 235);
+    border-bottom: solid rgb(91, 218, 235);
+    height: auto;
+}
+
+
+.work-card-2 h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.work-card .next{
+    font-size: 20px;
+}
+
+.calendar-link .time {
+    max-width: 900px;
+    margin: 0;
+    
+}
+
+
+.calendar-link {
+    text-decoration: none;
+    width: 65% ;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    /* border: 2px solid rgb(91, 218, 235); */
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.calendar-link:hover{
+    color: rgb(3, 3, 150);
+}
+
+
+
+
+
+
+.Package{
+    text-align: center;
+    font-size: 75px;
+    background: rgb(91, 218, 235);
+    margin-bottom: 30px;
+    min-width: 100vw;
+    
+  }
+    .vincent{
+      width: 200px;
+    }
+  
+  
+  
+  .vincent1{
+    width: 200px;
+    /* margin-bottom: -0px; */
+  }
+  
+  
+  
+  .Package-img{
+    display: inline-block;
+   }
+  
+  .Package-info{
+  display: inline-block;
+  margin-left: 20px;
+  
+  }
+  
+  
+  
+  
+  .Package-img1{
+    display: inline-block;
+    margin-top: 80px;
+   }
+  
+  .Package-info1{
+  display: inline-block;
+  margin-left: 20px;
+  
+  }
+  
+  
+  
+  
+  .Package-img2{
+    display: inline-block;
+    margin-top: 80px;
+   }
+  
+  .Package-info2{
+  display: inline-block;
+  margin-left: 20px;
+  
+  }
+  
+  
+  
+  
+  .p-1{
+    width: 150px;
+    background: rgb(91, 218, 235);
+    text-align: center;
+    font-size: 15px; 
+    margin-bottom: -10px;
+  }
+  .p-2{
+    margin-bottom: -10px;
+  }
+  
+  .p-3, .p-4 {
+    margin-bottom: -9px;
+  }
+  
+  .Package-info strong, .Package-info1 strong, .Package-info2 strong{
+    font-size: 40px;
+  }
+
+
+  @media only screen and (max-width: 390px){
+    main{
+      height: 550vh;}
+  }
+
+
+
+

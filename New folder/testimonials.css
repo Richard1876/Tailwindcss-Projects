@@ -1,0 +1,299 @@
+
+body{
+    background-image: url(./img/pexels-pixabay-355328.wave.jpg);
+    
+}
+
+.card .hasi{
+    max-width: 100px;
+    height: 60px;
+  
+  }
+  
+  .stars{
+    margin-top: 510px;
+  }
+  
+  .stars-1{
+    max-width: 500px;
+    height: 60px;
+  }
+  
+  
+  
+  
+  
+  section{
+   
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: -250px;
+    
+  }
+  
+  
+  
+  section h1{
+  font-size: 100px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 200px;
+  text-decoration:underline 8px;
+  }
+  
+  
+  
+  
+  
+  .container-right{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card{
+    position: relative;
+    width:1000px;
+    padding: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 1px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    background-color: azure;
+  }
+  
+  
+  
+  
+  .star-ratings{
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: 15px;
+  
+  }
+  
+  
+  
+  .star, .star1, .star2, .star3, .star4{
+     width: 20px;
+  
+   
+   }
+  
+   
+  
+  .card img{
+    max-width: 75px;
+    border-radius: 100%;  
+  }
+  .card-container{
+  display: flex;
+  gap: 1rem;
+  }
+  
+  .card-container span i{
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .card-details p{
+    padding-top: 90px;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    max-width: 900px;
+    
+  }
+  
+  .card-details h4{
+    font-size: 20px;
+    text-align: right;
+    color: blue;
+    font-weight: 500;
+  }
+
+  .review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    /* padding: 0 15px; */
+    
+    color: #565959;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 15px;
+    
+  }
+
+  .review-container h1{
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+    max-width: 460px;
+    margin-top: -250px;
+    text-align: center;
+  }
+
+  .reviews{
+   max-width: 460px ;
+  padding-top: 40vh;
+  }
+
+  .img{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    
+   
+   
+    
+  }
+
+
+
+  .img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; !important
+    /* padding: 0 30px; */
+    /* float: right; */
+    /* padding-left: 0; */
+    /* overflow: hidden; */
+    
+  }
+
+  .img p{
+    font-size: 13px;
+    margin-left: 10px;
+    
+  }
+
+  .stars-container{
+    display: flex;
+    margin-top: -px;
+  }
+
+  .s-c{
+    padding-right: 20px;
+    /* margin-left: 20px; */
+  }
+
+  .stars-container p{
+    margin: 0;
+    
+  }
+
+  .s-c .star{
+    width: 15px;
+  }
+
+  .review-tag{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+    
+  }
+  .review-tag:hover{
+    text-decoration: underline;
+    color: rgba(121, 3, 3, 0.733);
+  }
+  .review-date{
+    margin-top: -1px;
+  }
+
+.review-date, .verified{
+  font-size: 13px;
+  
+  }
+
+  .verified{
+    color: #c45500;
+    font-size: 11px;
+    margin-top: -10px;
+    font-weight: 500;
+    
+
+  }
+  .verified:hover{
+    text-decoration: underline;
+    
+  }
+  .comment{
+    font-size: 12px;
+    color: #0f1111;
+    margin-top: -5px;
+    /* word-wrap: break-word; */
+  }
+
+  .help{
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+
+  .helpful{
+    width: 77px;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0 10px 0 11px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #d5d9d9;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 2px 5px 0 rgba(213, 217, 217, .5);
+
+  }
+
+  .report{
+    border: none;
+    background-color: transparent;
+    border-left: solid 1px gray;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 780px) {
+    .reviews{
+      padding-top: 15px;
+      
+    }
+
+    .review-container{
+      padding: 15 10px 10px 0;
+    }
+
+    
+    
+  }
+
+  @media only screen and (max-width: 780px){
+    .reviews{
+      padding: 0 10px;
+    }
+
+    .review-container h1{
+      margin-top: 1px;
+    }
+  }
