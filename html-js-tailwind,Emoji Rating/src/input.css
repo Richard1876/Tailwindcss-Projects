@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.box-shadow{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+.border-radius{
+    border-radius: 50%;
+}
+
+.translate{
+    transform: translateX(-200);
+}
+
+.active{
+    color: gold;
+}
+
+.translate{
+    transform: translateX(0px);
+}
