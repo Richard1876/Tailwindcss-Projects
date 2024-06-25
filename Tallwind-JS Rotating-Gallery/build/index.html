@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Rotating Image Gallery</title>
+</head>
+<body class="flex flex-col items-center text-center h-screen justify-center bg-black overflow-hidden">
+
+    <div class="image-container transform-style-3d w-[200px] h-[200px]  duration-200 relative ">
+        <span style="--i: 1" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/231/300/200">
+        </span>
+        <span style="--i: 2" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/232/300/200">
+        </span>
+        <span style="--i: 3" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/233/300/200">
+        </span>
+        <span style="--i: 4" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/234/300/200">
+        </span>
+        <span style="--i: 5" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/235/300/200">
+        </span>
+        <span style="--i: 6" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/236/300/200">
+        </span>
+        <span style="--i: 7" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/237/300/200">
+        </span>
+        <span style="--i: 8" class="absolute top-0 left-0 il w-full">
+            <img class="absolute top-0 left-0 w-full" src="https://picsum.photos/id/238/300/200">
+        </span>
+    </div>
+    <div class="btn-container bg-red-700 relative w-10/12 ">
+        <button class="btn absolute -bottom-20 text-white border-none py-3 px-5 slateblue rounded-md cursor-pointer hover:brightness-150 left-1/4" id="prev">Prev</button>
+        <button class="btn absolute -bottom-20 text-white border-none py-3 px-5 slateblue rounded-md cursor-pointer hover:brightness-150  right-1/4" id="next">next</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

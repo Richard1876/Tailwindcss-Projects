@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.il{
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+}
+
+.image-container{
+    transform-style: preserve-3d; 
+    transform: perspective(1000px) rotateY(0deg);
+  
+}
+
+.slateblue{
+    background-color: slateblue;
+}
+
+.brit:hover{
+    filter: brightness(1.5);
+    
+}
