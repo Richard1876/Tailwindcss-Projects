@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Random Password generator</title>
+</head>
+<body class="flex justify-center h-screen items-center font-serif">
+
+    <div class="password-container bg-[pink] w-[500px] p-[20px] rounded-[10px] shadow-[0_4px_8px_rgba(0,0,0,0.3)] m-[10px]">
+        <h2>Random Password Generator</h2>
+        <div class="input-container border-solid border-black border-2 rounded-[10px] flex justify-between items-center p-[10px]">
+            <input type="text" id="input" class="input border-none bg-transparent outline-none text-[24px] tracking-[4px] placeholder:tracking-[0px]"  placeholder="Create Password" readonly>
+            <i class="fa-regular fa-copy fa-2x cursor-pointer opacity-[.3] hover:opacity-[.7]"></i>
+       </div>
+       <button class="btn bg-black text-white border-none px-[20px] py-[10px] my-[10px] mx-[0px] text-[20px] hover:bg-green-700 active:scale-[0.95] rounded-[5px]">Generate</button>
+
+    </div>
+    <div  class="alert-container fixed w-[300px] h-[50px] bg-[lightgreen] right-[20px] bottom-[20px] rounded-[10px] shadow-[0_4px_8px_rgba(0,0,0,0.3)] text-center py-[10px] justify-center items-center text-[20px] active:right-[-300px] hidden  duration-[0.4s] ">Password  Copied</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
