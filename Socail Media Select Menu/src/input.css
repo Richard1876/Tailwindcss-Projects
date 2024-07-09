@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Linear{
+    background: linear-gradient(135deg, purple 20%, orange 80%);
+}
